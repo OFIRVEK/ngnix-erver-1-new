@@ -3,6 +3,6 @@ services:
     image: nginx:latest
     container_name: my-nginx-server
     ports:
-      - "8080:80"
+      - "7065:80"
 
     restart: always
